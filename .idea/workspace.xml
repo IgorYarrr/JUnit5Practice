@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281c85ae-de71-49a7-9bc2-455fd554140a" name="Changes" comment="Homework 4 - Done">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HomeWork5Test.java" afterDir="false" />
+    <list default="true" id="281c85ae-de71-49a7-9bc2-455fd554140a" name="Changes" comment="Homework 5 - Done">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Homework6Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/test.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.HomeWork5Test">
+  <component name="RunManager" selected="JUnit.Homework6Test.argumentsSourceTest">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeWork5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5Practice" />
       <extension name="coverage">
@@ -60,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork5Test.assumeFalseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Homework6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5Practice" />
       <extension name="coverage">
         <pattern>
@@ -69,14 +87,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.HomeWork5Test" />
-      <option name="METHOD_NAME" value="assumeFalseTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Homework6Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework6Test.argumentsSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Homework6Test" />
+      <option name="METHOD_NAME" value="argumentsSourceTest(org.example.Cat)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork5Test.assumeTrueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Homework6Test.csvFileSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5Practice" />
       <extension name="coverage">
         <pattern>
@@ -85,40 +118,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.HomeWork5Test" />
-      <option name="METHOD_NAME" value="assumeTrueTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeWork5Test.assumingThatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit5Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.HomeWork5Test" />
-      <option name="METHOD_NAME" value="assumingThatTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeWork5Test.repeatedTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit5Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.HomeWork5Test" />
-      <option name="METHOD_NAME" value="repeatedTestTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Homework6Test" />
+      <option name="METHOD_NAME" value="csvFileSourceTest(java.lang.String,int,java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Homework6Test.argumentsSourceTest" />
+        <item itemvalue="JUnit.Homework6Test.csvFileSourceTest" />
+        <item itemvalue="JUnit.Homework6Test" />
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.HomeWork5Test" />
-        <item itemvalue="JUnit.HomeWork5Test.repeatedTestTest" />
-        <item itemvalue="JUnit.HomeWork5Test.assumingThatTest" />
-        <item itemvalue="JUnit.HomeWork5Test.assumeFalseTest" />
-        <item itemvalue="JUnit.HomeWork5Test.assumeTrueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +148,9 @@
       <workItem from="1673503709461" duration="5478000" />
       <workItem from="1673524774837" duration="1195000" />
       <workItem from="1673542282109" duration="9000" />
-      <workItem from="1674113448231" duration="2000000" />
+      <workItem from="1674113448231" duration="2553000" />
+      <workItem from="1674140549062" duration="275000" />
+      <workItem from="1674669610140" duration="3279000" />
     </task>
     <task id="LOCAL-00001" summary="starting project">
       <created>1673504621996</created>
@@ -163,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673514432128</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Homework 5 - Done">
+      <created>1674115756666</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674115756666</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +193,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="starting project" />
     <MESSAGE value="Homework 4 - Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 4 - Done" />
+    <MESSAGE value="Homework 5 - Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 5 - Done" />
   </component>
 </project>
