@@ -9,9 +9,4 @@ import lombok.*;
 public class Users{
 	private String name;
 	private String job;
-
-	@Override
-	public String toString(){
-		return "{\"name\":\"" + name + "\",\"job\":\"" + job + "\"}";
-	}
 }

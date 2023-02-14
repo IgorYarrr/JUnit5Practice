@@ -1,5 +1,7 @@
 package org.example;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
@@ -71,16 +73,18 @@ public class Homework7Test {
     }
 
     @Test
-    public void postCreate(){
+    public void postCreate() throws JsonProcessingException {
         Users user = Users.builder()
                 .name("Alex")
                 .job("Manager")
                 .build();
+        String userJson = new ObjectMapper().writeValueAsString(user);
         given()
                 .baseUri(baseUri)
                 .basePath(userBasePath)
                 .contentType(ContentType.JSON)
-                .body(user.toString())
+                .body(userJson)
+                .log().all()
                 .post()
                 .then()
                 .statusCode(HttpStatus.SC_CREATED);
