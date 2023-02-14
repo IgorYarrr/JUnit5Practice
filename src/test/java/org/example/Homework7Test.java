@@ -1,7 +1,6 @@
 package org.example;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
+
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
@@ -13,15 +12,15 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 
 public class Homework7Test {
-    public static final String baseUri = "https://reqres.in/";
-    public static final String userBasePath = "api/users";
-    public static final String unknownBasePath = "api/unknown";
+    public static final String BASE_URI = "https://reqres.in/";
+    public static final String USER_BASE_PATH = "api/users";
+    public static final String UNKNOWN_BASE_PATH = "api/unknown";
 
     @Test
     public void getSingleUser(){
         given()
                 .pathParam("user", 2)
-                .baseUri(baseUri)
+                .baseUri(BASE_URI)
                 .when()
                 .get("/api/users/{user}")
                 .then()
@@ -32,7 +31,7 @@ public class Homework7Test {
     public void getListUser(){
         given()
                 .queryParam("page", 2)
-                .baseUri(baseUri)
+                .baseUri(BASE_URI)
                 .when()
                 .get("/api/users")
                 .then()
@@ -40,8 +39,8 @@ public class Homework7Test {
     }
 
     RequestSpecification userReqSpec = given()
-            .baseUri(baseUri)
-            .basePath(userBasePath);
+            .baseUri(BASE_URI)
+            .basePath(USER_BASE_PATH);
     ResponseSpecification resSpec = new ResponseSpecBuilder()
             .expectStatusCode(HttpStatus.SC_OK)
             .build();
@@ -59,8 +58,8 @@ public class Homework7Test {
 
 
     RequestSpecification unknownReqSpec = given()
-            .baseUri(baseUri)
-            .basePath(unknownBasePath);
+            .baseUri(BASE_URI)
+            .basePath(UNKNOWN_BASE_PATH);
     @Test
     public void getSingleResource(){
         given()
@@ -73,17 +72,16 @@ public class Homework7Test {
     }
 
     @Test
-    public void postCreate() throws JsonProcessingException {
+    public void postCreate() {
         Users user = Users.builder()
                 .name("Alex")
                 .job("Manager")
                 .build();
-        String userJson = new ObjectMapper().writeValueAsString(user);
         given()
-                .baseUri(baseUri)
-                .basePath(userBasePath)
+                .baseUri(BASE_URI)
+                .basePath(USER_BASE_PATH)
                 .contentType(ContentType.JSON)
-                .body(userJson)
+                .body(user)
                 .log().all()
                 .post()
                 .then()

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281c85ae-de71-49a7-9bc2-455fd554140a" name="Changes" comment="Homework 7 - Done">
+    <list default="true" id="281c85ae-de71-49a7-9bc2-455fd554140a" name="Changes" comment="Homework 7 - changed constant names and deleted unnecessary line">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Homework7Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Homework7Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +153,8 @@
       <workItem from="1674669610140" duration="3645000" />
       <workItem from="1676288853092" duration="7283000" />
       <workItem from="1676360526404" duration="3270000" />
-      <workItem from="1676364658978" duration="5465000" />
+      <workItem from="1676364658978" duration="6158000" />
+      <workItem from="1676375697968" duration="1626000" />
     </task>
     <task id="LOCAL-00001" summary="starting project">
       <created>1673504621996</created>
@@ -192,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676368960511</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Homework 7 - added Jackson object convertation from POJO to JSON">
+      <created>1676370264552</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676370264552</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +221,8 @@
     <MESSAGE value="Homework 5 - Done" />
     <MESSAGE value="Homework 6 - Done" />
     <MESSAGE value="Homework 7 - Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 7 - Done" />
+    <MESSAGE value="Homework 7 - added Jackson object convertation from POJO to JSON" />
+    <MESSAGE value="Homework 7 - changed constant names and deleted unnecessary line" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 7 - changed constant names and deleted unnecessary line" />
   </component>
 </project>
