@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="281c85ae-de71-49a7-9bc2-455fd554140a" name="Changes" comment="Homework 7 - changed constant names and deleted unnecessary line">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/DataItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Support.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/UsersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Homework8Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Homework7Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Homework7Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,55 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Homework7Test.postCreate">
-    <configuration name="Homework7Test.getListUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit5Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Homework7Test" />
-      <option name="METHOD_NAME" value="getListUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Homework7Test.getSingleResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit5Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Homework7Test" />
-      <option name="METHOD_NAME" value="getSingleResource" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Homework7Test.getSingleUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit5Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Homework7Test" />
-      <option name="METHOD_NAME" value="getSingleUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Homework8Test.headerContentTypeTest">
     <configuration name="Homework7Test.postCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5Practice" />
       <extension name="coverage">
@@ -109,7 +64,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework7Test.specTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Homework8Test.bodyPojo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5Practice" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +73,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Homework7Test" />
-      <option name="METHOD_NAME" value="specTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Homework8Test" />
+      <option name="METHOD_NAME" value="bodyPojo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework8Test.headerContentTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Homework8Test" />
+      <option name="METHOD_NAME" value="headerContentTypeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework8Test.statusLineBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Homework8Test" />
+      <option name="METHOD_NAME" value="statusLineBody" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework8Test.timeCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Homework8Test" />
+      <option name="METHOD_NAME" value="timeCheck" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Homework8Test.headerContentTypeTest" />
+        <item itemvalue="JUnit.Homework8Test.timeCheck" />
+        <item itemvalue="JUnit.Homework8Test.bodyPojo" />
+        <item itemvalue="JUnit.Homework8Test.statusLineBody" />
         <item itemvalue="JUnit.Homework7Test.postCreate" />
-        <item itemvalue="JUnit.Homework7Test.getListUser" />
-        <item itemvalue="JUnit.Homework7Test.getSingleResource" />
-        <item itemvalue="JUnit.Homework7Test.specTest" />
-        <item itemvalue="JUnit.Homework7Test.getSingleUser" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +157,10 @@
       <workItem from="1676288853092" duration="7283000" />
       <workItem from="1676360526404" duration="3270000" />
       <workItem from="1676364658978" duration="6158000" />
-      <workItem from="1676375697968" duration="1626000" />
+      <workItem from="1676375697968" duration="2237000" />
+      <workItem from="1676549307377" duration="4453000" />
+      <workItem from="1676633904931" duration="595000" />
+      <workItem from="1677064414770" duration="3305000" />
     </task>
     <task id="LOCAL-00001" summary="starting project">
       <created>1673504621996</created>
@@ -198,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676370264552</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Homework 7 - changed constant names and deleted unnecessary line">
+      <created>1676384205195</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676384205195</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
