@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281c85ae-de71-49a7-9bc2-455fd554140a" name="Changes" comment="Homework 8 - Done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="281c85ae-de71-49a7-9bc2-455fd554140a" name="Changes" comment="Homework 8 - added relaxedHTTPSValidation() at userReqSpec" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +41,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Homework8Test">
+  <component name="RunManager" selected="JUnit.Homework8Test.timeCheck">
     <configuration name="Homework8Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5Practice" />
       <extension name="coverage">
@@ -125,9 +123,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Homework8Test.timeCheck" />
         <item itemvalue="JUnit.Homework8Test" />
         <item itemvalue="JUnit.Homework8Test.headerContentTypeTest" />
-        <item itemvalue="JUnit.Homework8Test.timeCheck" />
         <item itemvalue="JUnit.Homework8Test.bodyPojo" />
         <item itemvalue="JUnit.Homework8Test.statusLineBody" />
       </list>
@@ -157,6 +155,7 @@
       <workItem from="1676633904931" duration="595000" />
       <workItem from="1677064414770" duration="3734000" />
       <workItem from="1677764680411" duration="1205000" />
+      <workItem from="1678189880255" duration="129000" />
     </task>
     <task id="LOCAL-00001" summary="starting project">
       <created>1673504621996</created>
@@ -214,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677068627564</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Homework 8 - added relaxedHTTPSValidation() at userReqSpec">
+      <created>1678189972346</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678189972346</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +246,7 @@
     <MESSAGE value="Homework 7 - added Jackson object convertation from POJO to JSON" />
     <MESSAGE value="Homework 7 - changed constant names and deleted unnecessary line" />
     <MESSAGE value="Homework 8 - Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 8 - Done" />
+    <MESSAGE value="Homework 8 - added relaxedHTTPSValidation() at userReqSpec" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 8 - added relaxedHTTPSValidation() at userReqSpec" />
   </component>
 </project>

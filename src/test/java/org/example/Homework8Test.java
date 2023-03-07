@@ -18,7 +18,7 @@ public class Homework8Test {
     public static final String BASE_URI = "https://reqres.in/";
     public static final String USER_BASE_PATH = "api/users";
 
-    RequestSpecification userReqSpec = given()
+    private static final RequestSpecification userReqSpec = given()
             .baseUri(BASE_URI)
             .basePath(USER_BASE_PATH)
             .relaxedHTTPSValidation();
@@ -67,7 +67,10 @@ public class Homework8Test {
 
     @Test
     public void timeCheck(){
-        long reqTime = get(BASE_URI+USER_BASE_PATH).time();
+        long reqTime = given()
+                .spec(userReqSpec)
+                .when()
+                .get().time();
         System.out.println("Time for request: " + reqTime);
         given()
                 .spec(userReqSpec)
