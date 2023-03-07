@@ -20,7 +20,8 @@ public class Homework8Test {
 
     RequestSpecification userReqSpec = given()
             .baseUri(BASE_URI)
-            .basePath(USER_BASE_PATH);
+            .basePath(USER_BASE_PATH)
+            .relaxedHTTPSValidation();
 
     @Test
     public void headerContentTypeTest(){

@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281c85ae-de71-49a7-9bc2-455fd554140a" name="Changes" comment="Homework 7 - changed constant names and deleted unnecessary line">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/DataItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Support.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/UsersPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Homework8Test.java" afterDir="false" />
+    <list default="true" id="281c85ae-de71-49a7-9bc2-455fd554140a" name="Changes" comment="Homework 8 - Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +43,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Homework8Test.headerContentTypeTest">
-    <configuration name="Homework7Test.postCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Homework8Test">
+    <configuration name="Homework8Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5Practice" />
       <extension name="coverage">
         <pattern>
@@ -57,9 +53,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Homework7Test" />
-      <option name="METHOD_NAME" value="postCreate" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Homework8Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Homework8Test" />
         <item itemvalue="JUnit.Homework8Test.headerContentTypeTest" />
         <item itemvalue="JUnit.Homework8Test.timeCheck" />
         <item itemvalue="JUnit.Homework8Test.bodyPojo" />
         <item itemvalue="JUnit.Homework8Test.statusLineBody" />
-        <item itemvalue="JUnit.Homework7Test.postCreate" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +155,8 @@
       <workItem from="1676375697968" duration="2237000" />
       <workItem from="1676549307377" duration="4453000" />
       <workItem from="1676633904931" duration="595000" />
-      <workItem from="1677064414770" duration="3305000" />
+      <workItem from="1677064414770" duration="3734000" />
+      <workItem from="1677764680411" duration="1205000" />
     </task>
     <task id="LOCAL-00001" summary="starting project">
       <created>1673504621996</created>
@@ -211,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676384205195</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Homework 8 - Done">
+      <created>1677068627564</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677068627564</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +239,7 @@
     <MESSAGE value="Homework 7 - Done" />
     <MESSAGE value="Homework 7 - added Jackson object convertation from POJO to JSON" />
     <MESSAGE value="Homework 7 - changed constant names and deleted unnecessary line" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 7 - changed constant names and deleted unnecessary line" />
+    <MESSAGE value="Homework 8 - Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 8 - Done" />
   </component>
 </project>
